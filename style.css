@@ -155,7 +155,7 @@ section nav .text span {
 
 section nav form {
   background-color: rgba(0, 0, 0, 0.05);
-  padding: 10px;
+  padding: 15px;
   border-radius: 50px;
   position: absolute;
   right: 370px;
@@ -168,6 +168,8 @@ section nav form input {
   outline: none;
   border: none;
   background-color: transparent;
+  font-size: 16px;
+  width: 100%;
 }
 
 section .main-aside {
@@ -178,7 +180,10 @@ section .main-aside {
 section .main-aside main {
 width: 60%;  
 }
+section nav.down section{
+background-color: blue;
 
+}
 section .main-aside aside {
   width: 40%;
 }
@@ -201,6 +206,12 @@ section .main-aside aside {
 
 .main-aside main  ul li a:hover {
 background-color: rgba(0, 0, 0, 0.1);
+}
+.down-section{
+  display: flex;
+  justify-content: space-a;
+  background-color: #248cf5;
+
 }
 .search{
   display: flex;
@@ -227,9 +238,14 @@ background-color: rgba(0, 0, 0, 0.1);
   border-radius: 50px;
 }
 
+.post {
+  display: flex;
+}
 
-
-
+.post .profile-pic {
+  width: 50px;
+  height: 50px;
+}
 
 
 
